@@ -36,17 +36,7 @@
 
 Modifiche sul branch master
 /*--------------------------------- Definitions ------------------------------*/
-<<<<<<< HEAD
-Modifiche fatte sul branch master
-// Prime numbers for flow control: caller
-//
-tor
-#define CALL_BATTERY      // TWI
-#define CALL_ROM        67  // Flash
-
-=======
-Modifiche sul branch troble
->>>>>>> trouble
+Isolved the conglict
 #define CONTROL_FLOW_OK (CALL_RTX       + CALLED_RTX       + \
                          CALL_STATEFLOW + \
                          CALL_ADC       + CALLED_ADC       + \
