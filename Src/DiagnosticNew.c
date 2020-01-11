@@ -34,11 +34,11 @@
 
 Modifche per il branch feature-update-file
 
+Modifche per il branch more-update
+
 #include <ioavr.h>
 
-#include "includes.h"
-#include "Uid.h"
-#include "Diagnostic.h"
+
 
 /*--------------------------------- Definitions ------------------------------*/
 
