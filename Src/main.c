@@ -26,7 +26,7 @@
 #include "Stop_Monitor.h"
 #include "Code.h"
 #include "TPool.h"
-#include "Uid.h"
+#include "Uid.h"adsf
 #include "Battery.h"
 #include "TWI_Master.h"
 #include "Hic.h"
@@ -36,6 +36,7 @@
 
 Modifiche sul branch master
 /*--------------------------------- Definitions ------------------------------*/
+<<<<<<< HEAD
 Modifiche fatte sul branch master
 // Prime numbers for flow control: caller
 //
@@ -43,6 +44,9 @@ tor
 #define CALL_BATTERY      // TWI
 #define CALL_ROM        67  // Flash
 
+=======
+Modifiche sul branch troble
+>>>>>>> trouble
 #define CONTROL_FLOW_OK (CALL_RTX       + CALLED_RTX       + \
                          CALL_STATEFLOW + \
                          CALL_ADC       + CALLED_ADC       + \
