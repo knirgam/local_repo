@@ -39,15 +39,8 @@ Modifiche sul branch master
 Modifiche fatte sul branch master
 // Prime numbers for flow control: caller
 //
-#define CALL_RTX         2  // RTX monitor
-#define CALL_STATEFLOW   5  // Stateflow
-#define CALL_ADC        11  // ADC
-#define CALL_DIGITAL    17  // Digital
-#define CALL_UART1      23  // UART 1
-#define CALL_HIC        31  // Hic
-#define CALL_STOP       41  // Stop monitor
-#define CALL_BATTERY    47  // Battery
-#define CALL_TWI        59  // TWI
+tor
+#define CALL_BATTERY      // TWI
 #define CALL_ROM        67  // Flash
 
 #define CONTROL_FLOW_OK (CALL_RTX       + CALLED_RTX       + \
