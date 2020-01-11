@@ -6,35 +6,7 @@
 // $Author: micheleb $
 //
 /// COMPILER: IAR C/C++ for AVR 4.21A/W32 (4.21.0.5)
-///
-/// \mainpage FSA - Coder A Firmware
-/// Sequence of operation for coder A:
-/// - reads the UID number from external memory through I2C bus
-/// - checks CRC of UID
-/// - sends UID to coder B through serial communication bus A - B
-/// - waits an handshake signal from coder B, indicating that CRC check of
-///   UID was OK and that coder B is ready to start
-/// - sends pulses on STOP_OUT pin
-/// - checks pulses on STOP to detect pushbutton failures and shortcircuits
-/// - triggers a "start of sampling" signal to coder B
-/// - samples analogic commands and digital commands
-/// - exchanges its inputs with coder B through communication bus
-/// - compares its inputs with those from coder B through
-/// - receives auxiliary data from HIC and fits them in the telegram
-/// - builds a new telegram and sends it to coder B
-/// - receives from coder B the BCH code and appends BCH to the telegram
-/// - sends a packet inclusive of telegram + BCH to the RTX radio transceiver
-/// - checks that telegram requests fronm RTX are timely
-/// - measures battery level with an external ADC
-/// - warns the user if battery is low
-/// - shuts off power supply if battery is exhausted
-/// - keeps a counter of working time
-/// - warns the user when working time is about to elapse
-/// - shuts off power supply after 8 hours of continuous work.
-///
-/// \file
-///
-/// \par GLOBALS:
+
 /// Flow control variables \c Ctrl_Flow_Cnt_Inv and \c Ctrl_Flow_Cnt need to be
 /// global in order to be visible by all modules.
 ///
@@ -61,6 +33,8 @@
 #include "Coder_Coder_A.h"
 #include "Logic.h"
 
+
+Modifiche sul branch master
 /*--------------------------------- Definitions ------------------------------*/
 
 #ifdef VAR_GLOBAL
