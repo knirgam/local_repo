@@ -26,7 +26,7 @@
 #include "Stop_Monitor.h"
 #include "Code.h"
 #include "TPool.h"
-#include "Uid.h"
+#include "Uid.h"adsf
 #include "Battery.h"
 #include "TWI_Master.h"
 #include "Hic.h"
@@ -36,26 +36,7 @@
 
 Modifiche sul branch master
 /*--------------------------------- Definitions ------------------------------*/
-
-#ifdef VAR_GLOBAL
-#   undef VAR_GLOBAL
-#endif
-#define VAR_GLOBAL
-
-//
-// Prime numbers for flow control: caller
-//
-#define CALL_RTX         2  // RTX monitor
-#define CALL_STATEFLOW   5  // Stateflow
-#define CALL_ADC        11  // ADC
-#define CALL_DIGITAL    17  // Digital
-#define CALL_UART1      23  // UART 1
-#define CALL_HIC        31  // Hic
-#define CALL_STOP       41  // Stop monitor
-#define CALL_BATTERY    47  // Battery
-#define CALL_TWI        59  // TWI
-#define CALL_ROM        67  // Flash
-
+Modifiche sul branch troble
 #define CONTROL_FLOW_OK (CALL_RTX       + CALLED_RTX       + \
                          CALL_STATEFLOW + \
                          CALL_ADC       + CALLED_ADC       + \
