@@ -16,6 +16,8 @@
 //============================================================================*/
 // changes for remote repo
 // changes for local repo
+// changes for local staged area
+// changes not staged yet
 #include "includes.h"
 #include "version.h"
 
