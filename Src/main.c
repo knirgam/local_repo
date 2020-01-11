@@ -36,13 +36,7 @@
 
 Modifiche sul branch master
 /*--------------------------------- Definitions ------------------------------*/
-
-#ifdef VAR_GLOBAL
-#   undef VAR_GLOBAL
-#endif
-#define VAR_GLOBAL
-
-//
+Modifiche fatte sul branch master
 // Prime numbers for flow control: caller
 //
 #define CALL_RTX         2  // RTX monitor
